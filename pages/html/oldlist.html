@@ -15,27 +15,33 @@
 		<div id="headbuttons">
 			<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
 			<div id="char_dropdown" class="button_small">
-				<div>CREATE A CHARACTER</div>
+				<div>SELECT A THEME</div>
 				<menu>
 					<h2>Comedy World</h2>
+					<a href="/go_full?tray=custom">Videomaker</a>
+					<h2>Character Creator</h2>
 					<a href="/cc?themeId=family&bs=adam">Guy (Adam)</a>
 					<a href="/cc?themeId=family&bs=eve">Girl (Eve)</a>
 					<a href="/cc?themeId=family&bs=bob">Fat (Bob)</a>
 					<a href="/cc?themeId=family&bs=rocky">Buff (Rocky)</a>
 					<hr>
 					<h2>Anime</h2>
+					<a href="/go_full?tray=anime">Videomaker</a>
+					<h2>Character Creator</h2>
 					<a href="/cc?themeId=anime&bs=guy">Guy</a>
 					<a href="/cc?themeId=anime&bs=girl">Girl</a>
 					<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja)</a>
 					<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja)</a>
 					<hr>
 					<h2>Peepz</h2>
+					<a href="/go_full?tray=action">Videomaker</a>
+					<h2>Character Creator</h2>
 					<a href="/cc?themeId=cc2&bs=default">Lil Peepz</a>
 					<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
 					<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
 				</menu>
 			</div>
-			<a href="/pages/html/old.html" class="button_big">MAKE A VIDEO</a>
+			<a href="/pages/html/list.html" class="button_big">OLD VIDEO LIST</a>
 		</div>
 	</div>
 </header>
@@ -56,7 +62,7 @@
 	</tfoot>
 </table>
 <footer>
-	<a id="discordlink" href="/pages/html/list.html">New Video List</a>
+	<a id="discordlink" href="https://discord.gg/Emt9Jgc95T">Discord Server</a>
 </footer>
 
 <form enctype='multipart/form-data' action='/upload_movie' method='post'>
